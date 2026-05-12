@@ -37,11 +37,13 @@ New features are also engineered, such as:
 ### 3. Model Selection
 
 The following models are selected to be trained and compared:
-Model | Parameters
-- Decision Tree | criterion='squared_error'
-- Random Forest | n_estimators=101, criterion='squared_error'
-- XGBoost | eta=0.01, n_estimators=101, reg_alpha=1
-- CatBoost | learning_rate=0.01, n_estimators=101
+
+| Model         | Parameters                                  |
+|:--------------|:--------------------------------------------|
+| Decision Tree | criterion='squared_error'                   |
+| Random Forest | n_estimators=101, criterion='squared_error' |
+| XGBoost       | eta=0.01, n_estimators=101, reg_alpha=1     |
+| CatBoost      | learning_rate=0.01, n_estimators=101        |
 
 These models are capable of dealing with non-linear relationships (shown in histogram plots) and handling missing values natively.
 
