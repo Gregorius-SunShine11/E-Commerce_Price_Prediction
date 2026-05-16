@@ -64,8 +64,8 @@ The model with the best performance during validation is the Random Forest model
 The train dataset is available at the csv file 'ecommerce_price_prediction-train.csv', whereas the test dataset is available at the csv file 'ecommerce_price_prediction-test-3-days.csv'. You can follow this step-by-step instruction to run the project:
 
 1. Run the notebook 'Model_Training_and_Validation.ipynb' for the model training phase. After running the notebook, it should result in three new files:
-- best_model.pkl (the artifact of the trained model, not available in the online repository due to large file issues)
+- best_model.pkl (the artifact of the trained model)
 - brand_encoder.pkl (the artifact of the encoder used for 'brand' feature)
-- ecommerce_price_prediction-train-preprocessed.csv (the preprocessed version of the train dataset, not available in the online repository due to large file issues)
+- ecommerce_price_prediction-train-preprocessed.csv (the preprocessed version of the train dataset)
 
 2. Run the notebook 'Model_Testing_Live_Prediction.ipynb' to get the model prediction for test dataset, which is saved in the new csv file 'ecommerce_price_prediction-results.csv'.
